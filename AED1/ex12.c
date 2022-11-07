@@ -5,7 +5,7 @@ int main() {
 
     //se retornar para a posicao inicial esta em loop; posicao [0][0] finaliza com sucesso (saida);
     int M[MAX][MAX]= {0};
-    int m, n, i, j, x, y, count=0;
+    int m, n, i, j, x, y, count=0;          //i,j e count: contadores; x,y posicoes especificas na matriz; (m,n) dimensoes;
 
     scanf("%d %d", &m, &n);                 //dimensoes da matriz
     for(i=0; i<m; i++) {
